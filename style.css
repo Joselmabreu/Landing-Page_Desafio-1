@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menu{
+    background-color: #303030;
+}
+
+#titulo_menu{
+    color: #ffffff;
+    padding-top: 206px;
+    padding-left: 62px;
+    font-size: 72px;
+}
+
+#paragrafo_menu{
+    color:#ffffff;
+    padding-left: 62px;
+    padding-bottom: 206px;
+    font-size: 20px;
+}
+
+#menu_cinza{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    margin: 80px 80px 80px 130px;    
+}
+
+#arquitetura{
+    background-color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    }
+
+#titulo_arquitetura{
+    font-size: 45px;
+    padding-top: 206px;
+    padding-left: 62px;
+}
+
+#texto_arquitetura{
+    font-size: 30px;
+    padding-left: 62px;
+}
+
+#imagem_arquitetura{
+    height: 510px;
+    width: 605px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#titulo_formulario{
+    padding-top: 70px;
+    font-size: 25px;
+    margin: 25px;
+    color: #ffffff;
+}
+
+input{
+    Width: 300px;
+    Height: 40px;
+    background-color: #ffffff;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #c07212;
+    height: 40px;
+    width: 200px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover{
+    color: white;
+}
